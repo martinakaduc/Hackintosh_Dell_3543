@@ -1,0 +1,46 @@
+
+Clover EFI installer log - Mon Jan 15 14:01:10 PST 2018
+Installer version: v2.4k r4369 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:       Microsoft Basic Data WINDOWS 10              107.4 GB   disk0s2
+   3:                  Apple_HFS MACOS                   106.2 GB   disk0s3
+   4:                 Apple_Boot Recovery HD             650.0 MB   disk0s4
+   5:       Microsoft Basic Data DATA                    277.2 GB   disk0s5
+   6:                  Apple_HFS Backup_Hackintosh       8.3 GB     disk0s6
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS HIGHSIERRA              119.2 GB   disk1s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk1s3
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.4 GB    disk2
+   1:             Windows_FAT_32 BOOTLOADER              209.7 MB   disk2s1
+   2:                  Apple_HFS Hackintosh Zone High... 7.8 GB     disk2s2
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/HIGHSIERRA/EFIROOTDIR/EFI folder to /Volumes/HIGHSIERRA/EFI-Backups/r0000/2018-01-15-14h01/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
