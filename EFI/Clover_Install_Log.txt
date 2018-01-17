@@ -1,5 +1,5 @@
 
-Clover EFI installer log - Mon Jan 15 14:01:10 PST 2018
+Clover EFI installer log - Wed Jan 17 07:31:44 PST 2018
 Installer version: v2.4k r4369 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
@@ -10,7 +10,7 @@ Installer version: v2.4k r4369 EFI bootloader
    3:                  Apple_HFS MACOS                   106.2 GB   disk0s3
    4:                 Apple_Boot Recovery HD             650.0 MB   disk0s4
    5:       Microsoft Basic Data DATA                    277.2 GB   disk0s5
-   6:                  Apple_HFS Backup_Hackintosh       8.3 GB     disk0s6
+   6:       Microsoft Basic Data BACKUP_HACK             8.3 GB     disk0s6
 
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -28,7 +28,7 @@ Installer version: v2.4k r4369 EFI bootloader
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/HIGHSIERRA/EFIROOTDIR/EFI folder to /Volumes/HIGHSIERRA/EFI-Backups/r0000/2018-01-15-14h01/EFI
+Backing up /Volumes/HIGHSIERRA/EFIROOTDIR/EFI folder to /Volumes/HIGHSIERRA/EFI-Backups/r0000/2018-01-17-07h31/EFI
 ======================================================
 Installing BootSectors/BootLoader
 

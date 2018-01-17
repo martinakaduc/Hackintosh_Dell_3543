@@ -64,7 +64,7 @@
 		<key>Fast</key>
 		<true/>
 		<key>Legacy</key>
-		<string>PBR</string>
+		<string>LegacyBiosDefault</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -117,14 +117,10 @@
 		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
-			<key>DoubleClick</key>
-			<integer>500</integer>
 			<key>Enabled</key>
 			<false/>
 			<key>Mirror</key>
 			<false/>
-			<key>Speed</key>
-			<integer>8</integer>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1366x768</string>
@@ -152,7 +148,7 @@
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
@@ -167,6 +163,22 @@
 		<false/>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Enable Trim on SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QVBQTEUgU1NE
+				</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAA
+				</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>change F%uT%04x to F%uTxxxx for AppleBacklightInjector.kext (credit RehabMan)</string>
@@ -231,22 +243,6 @@
 				AgQLAAAIAACCAAAA
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Trim on SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NE
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAA
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -256,7 +252,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02501130CDF64WA8</string>
+		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
 		<data>
 		DAziNnMU
@@ -275,7 +271,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C1M501130CDF64WA8</string>
+		<string>C02605701GUFF4H1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -303,9 +299,9 @@
 		<key>ProductName</key>
 		<string>MacBookAir7,1</string>
 		<key>SerialNumber</key>
-		<string>C1MPC0TKG941</string>
+		<string>C02R620VH569</string>
 		<key>SmUUID</key>
-		<string>00AD0FF5-186C-411E-AE5C-22C6FA367314</string>
+		<string>12373C0A-6A39-424F-A64B-B8591275B135</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -314,7 +310,7 @@
 		<key>CustomUUID</key>
 		<string>0074D839-306E-47F9-B76E-6540D271D58E</string>
 		<key>InjectKexts</key>
-		<string>No</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
