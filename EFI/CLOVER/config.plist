@@ -165,22 +165,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Trim on SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NE
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>t2-10.10-10.11-BDW010509-Port_0x5-DP2HDM</string>
 				<key>Disabled</key>
 				<false/>
