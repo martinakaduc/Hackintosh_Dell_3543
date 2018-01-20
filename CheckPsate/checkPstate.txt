@@ -1,0 +1,5 @@
+sudo -s
+chown -R 0:0 ~/Desktop/AppleIntelInfo.kext
+chmod -R 755 ~/Desktop/AppleIntelInfo.kext
+kextload ~/Desktop/AppleIntelInfo.kext
+cat /tmp/AppleIntelInfo.dat
