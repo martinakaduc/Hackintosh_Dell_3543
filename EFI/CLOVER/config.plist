@@ -66,7 +66,7 @@
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
-		<false/>
+		<true/>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -184,7 +184,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x0</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
