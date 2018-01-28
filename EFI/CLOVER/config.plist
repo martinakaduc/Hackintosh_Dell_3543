@@ -65,10 +65,10 @@
 		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
-		<key>NeverHibernate</key>
+		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
-		<true/>
+		<false/>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -81,10 +81,8 @@
 	<dict>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<true/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
@@ -93,28 +91,6 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>Custom</key>
-		<dict>
-			<key>Entries</key>
-			<array>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>UEFI Internal</string>
-					<key>Hidden</key>
-					<string>Always</string>
-					<key>Ignore</key>
-					<false/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Type</key>
-					<string>Other</string>
-				</dict>
-			</array>
-		</dict>
-		<key>Language</key>
-		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -122,10 +98,6 @@
 			<key>Mirror</key>
 			<false/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1366x768</string>
-		<key>Theme</key>
-		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -186,7 +158,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x0</string>
+		<string>0x67</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
