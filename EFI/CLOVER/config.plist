@@ -83,6 +83,8 @@
 		<dict>
 			<key>FixOwnership</key>
 			<false/>
+			<key>Inject</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
