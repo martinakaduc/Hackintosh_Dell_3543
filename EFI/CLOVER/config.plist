@@ -137,6 +137,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Enable Trim on SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QVBQTEUgU1NE
+				</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>change F%uT%04x to F%uTxxxx for AppleBacklightInjector.kext (credit RehabMan)</string>
 				<key>Disabled</key>
 				<false/>
@@ -158,7 +174,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x0</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
