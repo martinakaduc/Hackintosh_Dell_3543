@@ -63,8 +63,6 @@
 		<string>HIGHSIERRA</string>
 		<key>Fast</key>
 		<true/>
-		<key>Legacy</key>
-		<string>PBR</string>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
@@ -176,7 +174,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x0</string>
+		<string>0x03</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
