@@ -43,6 +43,8 @@
 		<string>HIGHSIERRA</string>
 		<key>Fast</key>
 		<true/>
+		<key>NoEarlyProgress</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -56,6 +58,13 @@
 	<array>
 		<string>VBoxHfs</string>
 	</array>
+	<key>GUI</key>
+	<dict>
+		<key>ScreenResolution</key>
+		<string>1366x768</string>
+		<key>Theme</key>
+		<string>embedded</string>
+	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
@@ -111,7 +120,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x0</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
