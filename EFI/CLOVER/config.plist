@@ -41,8 +41,8 @@
 		<string>slide=0</string>
 		<key>DefaultVolume</key>
 		<string>HIGHSIERRA</string>
-		<key>Timeout</key>
-		<integer>1</integer>
+		<key>Fast</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -111,7 +111,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x03</string>
+		<string>0x67</string>
 		<key>MLB</key>
 		<string>C02605701GUFF4H1M</string>
 		<key>ROM</key>
