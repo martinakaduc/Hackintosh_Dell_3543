@@ -21,9 +21,6 @@
 				<string>DMAR</string>
 			</dict>
 		</array>
-		<key>SSDT</key>
-		<dict>
-		</dict>
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT.aml</string>
@@ -44,11 +41,8 @@
 		<string>slide=0</string>
 		<key>DefaultVolume</key>
 		<string>HIGHSIERRA</string>
-		<key>Fast</key>
-		<true/>
-	</dict>
-	<key>CPU</key>
-	<dict>
+		<key>Timeout</key>
+		<integer>1</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -62,9 +56,6 @@
 	<array>
 		<string>VBoxHfs</string>
 	</array>
-	<key>GUI</key>
-	<dict>
-	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
