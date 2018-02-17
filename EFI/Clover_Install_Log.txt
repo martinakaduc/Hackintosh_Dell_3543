@@ -1,0 +1,34 @@
+
+Clover EFI installer log - Sat Feb 17 21:05:47 +07 2018
+Installer version: v2.4k r4411 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS HIGHSIERRA              119.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI EFI                     314.6 MB   disk1s1
+   2:       Microsoft Basic Data WINDOWS 10              107.4 GB   disk1s2
+   3:                  Apple_HFS HS_DATA                 107.2 GB   disk1s3
+   4:       Microsoft Basic Data DATA                    285.2 GB   disk1s4
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/HIGHSIERRA/EFIROOTDIR/EFI folder to /Volumes/HIGHSIERRA/EFI-Backups/r0000/2018-02-17-21h05/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'BGM'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
