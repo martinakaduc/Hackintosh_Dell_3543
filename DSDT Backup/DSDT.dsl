@@ -4956,65 +4956,6 @@ DefinitionBlock ("", "DSDT", 2, "DELL  ", "WN09   ", 0x01072009)
             {
                 Name (_ADR, Zero)  // _ADR: Address
             }
-            
-            Device (ARPT)
-                {
-                    Name (_ADR, Zero)
-                    Name (_SUN, One)
-                    Name (_PRW, Package (0x02)
-                    {
-                        0x09, 
-                        0x04
-                    })
-                    Method (_DSM, 4, NotSerialized)
-                    {
-                        If (LEqual (Arg2, Zero))
-                        {
-                            Return (Buffer (One)
-                            {
-                                 0x03                                           
-                            })
-                        }
-
-                        Return (Package (0x0B)
-                        {
-                                "AAPL,slot-name", 
-                                Buffer (0x08)
-                                {
-                                    "AirPort"
-                                }, 
-
-                                "device-id", 
-                               Buffer (0x04)
-                                {
-                                    0x36, 0x00, 0x00, 0x00
-                                }, 
- 
-                                Buffer (0x08)
-                                {
-                                    "AirPort"
-                                }, 
-
-                                "model", 
-                                Buffer (0x35)
-                                {
-                                    "Atheros 956x Bluetooth Adapter"
-                                }, 
-
-                                "subsystem-id", 
-                                Buffer (0x04)
-                                {
-                                    0x8F, 0x00, 0x00, 0x00
-                                }, 
-
-                                "subsystem-vendor-id", 
-                                Buffer (0x04)
-                                {
-                                    0x6B, 0x10, 0x00, 0x00
-                                }
-                          })
-                    }
-                }
         }
     }
 
