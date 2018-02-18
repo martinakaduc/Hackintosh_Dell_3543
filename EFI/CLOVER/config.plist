@@ -38,6 +38,7 @@
 			<string>SSDT-4.aml</string>
 			<string>SSDT-8.aml</string>
 			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-KEY-DELL-WN09.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -208,7 +209,7 @@
 		<key>CustomUUID</key>
 		<string>0074D839-306E-47F9-B76E-6540D271D58E</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
