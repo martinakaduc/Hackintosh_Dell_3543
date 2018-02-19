@@ -300,7 +300,7 @@
 					<key>DoubleTapThresholdY</key>
 					<integer>100</integer>
 					<key>DragExitDelayTime</key>
-					<integer>1000000000</integer>
+					<integer>100000000</integer>
 					<key>DragLockTempMask</key>
 					<integer>1048592</integer>
 					<key>DynamicEWMode</key>
